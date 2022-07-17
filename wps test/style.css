@@ -1,0 +1,47 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.952),rgba(0,0,0,0.5)),url(images/backi2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    
+    }
+
+   
+    *{
+        color:rgba(255, 255, 255, 0.808);
+        
+     }
+    input{
+        color:rgba(0, 0, 0, 0.986);
+    }
+   
+    .heading
+    {
+        color:rgba(26, 26, 63, 0.281);
+        padding: 10px;
+        margin-top: 10px;
+        font-size:100px;
+        text-align: center;
+        background-position: center;
+        background-color: rgba(136, 151, 153, 0.541);
+        background-attachment: local;
+    }
+    .test {
+        color:rgba(213, 213, 250, 0.267);
+    }
+    .calculator{
+        background-color:rgba(141, 223, 255, 0.103);;
+        width: 700px;
+        height:500px;
+         background-position:center;
+          padding: 100px 150px;
+          margin-left: 400px;
+          margin-top : 200px;
+   }
+    button{
+        background-color: rgba(253, 127, 127, 0.404) ;
+        margin-inline: 25px;
+        padding : 10px 20px;
+    }
+        button:hover{ padding-inline : 20px 25px ; color:rgb(253, 206, 206);background-color: rgba(255, 151, 151, 0.938);}

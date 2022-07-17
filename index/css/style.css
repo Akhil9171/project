@@ -1,0 +1,52 @@
+header{ margin:10px;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../animated.jpg);
+  height:750px;
+background-size: cover;
+background-podision:center;
+}
+.background ul li{
+display:inline-block;
+float:right;
+margin-right:50px;
+margin-top:50px;
+text-decoration:none;
+}
+
+.home a{padding:10px 40px;}
+.home a:hover{ padding:10px 30px;}
+ul li a{ margin-top:7px;text-decoration:none;background-color:rgba(200,200,200,0.5);border:2px solid white;padding:10px;color:#fff;transition:0.5s ease;}
+ul li a:hover{ color:white; border:2px solid grey;padding:7px;}    
+#h{
+   position:absolute;
+   top:50%;left:50%;
+    transform:translate(-50%,-50%);
+ color:white;font-size:30px;
+   }
+h1:hover{color:grey;}
+#button{position:absolute;
+   top:60%;left:50%;
+    transform:translate(-50%,-50%);text-decoration:none;
+    }
+#button a{   border:2px solid #fff;border-radius:8px;
+  padding:10px;background-color:rgba(200,200,200,0.5);text-decoration:none;color:white;transition:0.5s ease;}
+#button a:hover{ 
+  padding:15px;font-size:30px;}
+.logo img{width:250px;
+ height:auto;margin-left:30px;margin-top:-30px;}
+#id{height:100px;
+margin:10px;  
+background-color:#0040ff;}
+#myDIV {margin-left:10px;margin-right:20px;
+  width: 1480px;
+  height: 200px;
+  background: rgb(182, 67, 67) url('smiley.gif') no-repeat top left/5px 5px;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {background: blue bottom right/50px 50px;}
+#id p{ 
+   position:absolute;
+   top:50%;left:50%;
+    transform:translate(-50%,-50%);
+ color:white;font-size:30px;
+   }
